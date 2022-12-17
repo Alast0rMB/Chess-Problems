@@ -152,8 +152,6 @@ def genetic_algorithm(size,pop_count,parent_count,mutation_rate,step_count):
         #Checking for other termination reasons
         # -- Domination
         # -- Lack of resualts
-        print("Population step " + str(step) + ":")
-        print(population)
     return population
 
 #Problem parameters
@@ -164,8 +162,5 @@ mutation_rate = 0.02
 step_count = 20
 
 answers = genetic_algorithm(size, pop_count, parent_count, mutation_rate, step_count)
-
-print("Final population:")
-print(answers)
 
 
